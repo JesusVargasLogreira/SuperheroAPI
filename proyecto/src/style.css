@@ -1,0 +1,197 @@
+/* ============================
+   RESET Y ESTILOS GENERALES
+============================ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", Arial, sans-serif;
+}
+
+body {
+  background: #0d1117;
+  color: #ffffff;
+  min-height: 100vh;
+}
+
+/* Contenedor principal */
+#app {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* ============================
+   NAV / MENÚ SUPERIOR
+============================ */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  background: #161b22;
+  padding: 15px;
+  border-bottom: 2px solid #30363d;
+}
+
+nav button {
+  padding: 10px 18px;
+  background: #238636;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: 0.2s;
+}
+
+nav button:hover {
+  background: #2ea043;
+}
+
+/* ============================
+   FORMULARIOS (Login / Registro)
+============================ */
+input {
+  width: 90%;
+  max-width: 350px;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 6px;
+  border: 1px solid #30363d;
+  background: #161b22;
+  color: white;
+  display: block;
+}
+
+button {
+  padding: 10px 15px;
+  margin: 10px 0;
+  background: #00aaff;
+  border: none;
+  color: white;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+button:hover {
+  background: #33bbff;
+}
+
+h2 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+/* Centrado */
+#app div {
+  text-align: center;
+}
+
+/* ============================
+   TARJETAS DE SUPERHÉROES
+============================ */
+.app-card {
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  padding: 15px;
+  margin: 15px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  width: 290px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.app-card:hover {
+  transform: scale(1.03);
+  box-shadow: 0px 0px 15px rgba(0, 150, 255, 0.4);
+}
+
+.app-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.app-info h2 {
+  color: #58a6ff;
+  margin: 10px 0;
+}
+
+.app-info p strong {
+  color: #2ea043;
+}
+
+/* ============================
+   COMPARADOR (original.js)
+============================ */
+select {
+  width: 250px;
+  padding: 10px;
+  background: #161b22;
+  border: 1px solid #30363d;
+  color: white;
+  border-radius: 6px;
+  margin-bottom: 10px;
+}
+
+pre {
+  background: #0c0f12;
+  padding: 15px;
+  border-radius: 10px;
+  max-width: 600px;
+  overflow-x: auto;
+  margin-top: 20px;
+  border: 1px solid #30363d;
+}
+
+table {
+  width: 100%;
+  border: 1px solid #30363d !important;
+  margin-top: 20px;
+}
+
+table td,
+table th {
+  border: 1px solid #30363d !important;
+  padding: 8px;
+  text-align: center;
+}
+
+table tr:nth-child(even) {
+  background: #1c2229;
+}
+
+table tr:nth-child(odd) {
+  background: #161b22;
+}
+
+/* ============================
+   BOTONES DEL COMPARADOR
+============================ */
+button {
+  cursor: pointer;
+}
+
+button:nth-of-type(1) {
+  background: #bb00ff;
+}
+
+button:nth-of-type(1):hover {
+  background: #cc33ff;
+}
+
+button:nth-of-type(2) {
+  background: #ff0033;
+}
+
+button:nth-of-type(2):hover {
+  background: #ff335c;
+}
+
+/* ============================
+   IMÁGENES COMPARADOR
+============================ */
+#app img {
+  border-radius: 8px;
+}
